@@ -1,0 +1,55 @@
+.parent {
+  background-image: url("../../Images/BGHEADER.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 10rem;
+}
+.Header {
+  width: 82%;
+  margin: auto;
+}
+
+.Header > p:nth-child(1) {
+  font-family: "Helvetica";
+  width: 50%;
+  line-height: 82px;
+}
+.Header > p:nth-child(3) {
+  font-family: "Helvetica";
+  width: 50%;
+  line-height: 36px;
+}
+
+@media (max-width: 1000px) {
+  .Header > p:nth-child(1) {
+    width: 80%;
+  }
+  .parent {
+    background-size: cover;
+  }
+}
+@media (max-width: 750px) {
+  .Header > p:nth-child(1) {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .Header > p:nth-child(1) {
+    font-size: 32px;
+    line-height: 36px;
+    width: 60%;
+  }
+  .Header > p:nth-child(3) {
+    font-family: "Helvetica";
+    width: 50%;
+    line-height: 36px;
+    font-size: 24px;
+  }
+}
+@media (max-width: 375px) {
+  .Header > p:nth-child(1) {
+    font-size: 32px;
+    line-height: 36px;
+    width: 80%;
+  }
+}

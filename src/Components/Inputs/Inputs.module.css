@@ -1,0 +1,207 @@
+.inputTypeParent {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+  padding: 0px 1rem;
+  gap: 1rem;
+}
+
+.inputType input {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  color: white;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Helvetica";
+  padding: 1rem 0.5rem;
+  width: 100%;
+}
+.inputType input::placeholder {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  color: white;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Helvetica";
+}
+
+.inputTypeParent button {
+  background-color: white;
+  color: #2659c3;
+  border-radius: 32px;
+  height: 90%;
+  width: 100%;
+  height: 42px;
+  margin: auto;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  opacity: 0.7;
+  outline: 0;
+}
+
+@media (max-width: 1275px) {
+  .inputTypeParent > div:nth-child(2) {
+    flex: 0.6 !important;
+  }
+  .inputTypeParent > div:nth-child(1) > div:nth-child(2) {
+    flex: 1.2 !important;
+  }
+}
+@media (max-width: 1150px) {
+  .inputTypeParent > div:nth-child(2) {
+    flex: 0.8 !important;
+  }
+  .inputTypeParent > div:nth-child(1) > div:nth-child(2) {
+    flex: 1.35 !important;
+  }
+  .inputTypeParent button {
+    padding: 0.5rem 2rem;
+  }
+}
+@media (max-width: 1000px) {
+  .inputTypeParent {
+    flex-direction: column;
+    background-color: transparent;
+    backdrop-filter: none;
+  }
+  .inputType {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    backdrop-filter: blur(16px) !important;
+    border-radius: 32px;
+  }
+  .inputTypeParent > div:nth-child(1) > div:nth-child(1) {
+    display: "flex";
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+  }
+  .inputTypeParent > div:nth-child(1) > div:nth-child(2) {
+    display: none;
+    flex: 0;
+  }
+  .inputTypeParent > div:nth-child(1) input {
+    width: 65%;
+  }
+  .inputTypeParent > div:nth-child(1) img {
+    position: absolute;
+    left: 30%;
+  }
+  .inputTypeParent > div:nth-child(2) {
+    justify-content: space-between !important;
+  }
+  .inputTypeParent > div:nth-child(2) > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inputTypeParent > div:nth-child(2) > div:nth-child(4) {
+    display: none;
+    flex: 0;
+  }
+  .inputTypeParent > div:nth-child(2) > div:nth-child(1) {
+    position: relative;
+    left: 15%;
+  }
+  .inputTypeParent > div:nth-child(3) {
+    display: "flex";
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+  }
+  .inputTypeParent > div:nth-child(3) input {
+    width: 58%;
+  }
+  .inputTypeParent > div:nth-child(3) img {
+    position: absolute;
+    left: 37%;
+  }
+
+  .inputTypeParent button {
+    color: white;
+    background-color: #2659c3;
+    width: 50%;
+    margin: auto;
+    opacity: 10;
+  }
+  .inputTypeParent > div:nth-child(4) {
+    padding: 0.3rem 0px;
+    background-color: #2659c3;
+    border-radius: 32px;
+  }
+}
+
+@media (min-width: 1001px) {
+  .inputTypeParent > div:nth-child(2) > div:nth-child(2) {
+    display: none;
+  }
+  .inputTypeParent > div:nth-child(2) > div:nth-child(1) {
+    display: none;
+  }
+  .inputTypeParent > div:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .inputTypeParent button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  .inputTypeParent > div:nth-child(1) input {
+    width: 70%;
+  }
+  .inputTypeParent > div:nth-child(1) img {
+    position: absolute;
+    left: 25%;
+  }
+}
+
+@media (max-width: 750px) {
+  .inputTypeParent > div:nth-child(2) > div:nth-child(1) {
+    position: relative;
+    left: 10%;
+  }
+  .inputTypeParent > div:nth-child(2) > div:nth-child(3) {
+    position: relative;
+    left: 10%;
+  }
+  .inputTypeParent > div:nth-child(3) input {
+    width: 65%;
+  }
+  .inputTypeParent > div:nth-child(3) img {
+    position: absolute;
+    left: 30%;
+  }
+}
+
+@media (max-width: 600px) {
+  .inputTypeParent{
+    padding: 0%;
+  }
+ }
+
+ @media (max-width: 450px) {
+  .inputTypeParent > div:nth-child(1) input {
+    width: 80%;
+  }
+  .inputTypeParent > div:nth-child(1) img {
+    position: absolute;
+    left: 15%;
+  }
+  .inputTypeParent > div:nth-child(3) input {
+    width: 70%;
+  }
+  .inputTypeParent > div:nth-child(3) img {
+    position: absolute;
+    left: 25%;
+  }
+}
