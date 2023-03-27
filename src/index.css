@@ -11,3 +11,7 @@
   font-family: 'Helvetica';
   src: url('./Fonts/Helvetica/Helvetica.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Netflix Sans';
+  src: url('./Fonts/Netflix-Sans/NetflixSans-Medium.otf') format('truetype');
+}

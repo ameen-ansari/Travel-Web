@@ -2,7 +2,6 @@ import Navbar from "../Navbar/Navbar";
 import style from "./Header.module.css";
 import Inputs from "../Inputs/Inputs";
 import SimpleSlider from "./ImageSlider";
-import Slider1 from '../Sliders/Slider1'
 
 function Header() {
   return (
