@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import img1 from '../../Images/UNDERHEADER/1.svg'
 import img2 from '../../Images/UNDERHEADER/2.svg'
 import img3 from '../../Images/UNDERHEADER/3.svg'
-import img4 from '../../Images/UNDERHEADER/4.svg'
+import style from './Slider1.module.css'
 
 export default class SimpleSlider extends Component {
   render() {
@@ -24,7 +24,16 @@ export default class SimpleSlider extends Component {
             slidesToScroll: 1,
             infinite: true,
           },
-        },]
+        },
+        {
+          breakpoint: 800,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+          },
+        }
+        ]
 
     };
 
@@ -37,11 +46,11 @@ export default class SimpleSlider extends Component {
       ];
 
     return (
-      <div className="ml-28">
+      <div className={style.parent}>
         <Slider {...settings}>
         {arrayOfImages.map((image) => {
             return (
-              <div className="px-2" >
+              <div className="px-2 cursor-pointer" >
                 <img style={{height:200 , width:310}}  src={image} alt="" />
               </div>
             );

@@ -2,17 +2,12 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import img1 from "../../Images/INHEADER/Frame1.svg";
-import img2 from "../../Images/INHEADER/Frame2.svg";
-import img3 from "../../Images/INHEADER/Frame3.svg";
-import img4 from "../../Images/INHEADER/Frame4.svg";
-import img5 from "../../Images/INHEADER/Frame5.svg";
-import img6 from "../../Images/INHEADER/Frame6.svg";
-import img7 from "../../Images/INHEADER/Frame7.svg";
-import img8 from "../../Images/INHEADER/Frame8.svg";
-import img9 from "../../Images/INHEADER/Frame9.svg";
-import img10 from "../../Images/INHEADER/Frame10.svg";
-import style from './ImageSlider.module.css'
+import img11 from "../../Images/INHEADER/Frame 21 (1).svg";
+import img12 from "../../Images/INHEADER/Frame 22 (1).svg";
+import img13 from "../../Images/INHEADER/Frame 23 (1).svg";
+import img14 from "../../Images/INHEADER/Frame 25 (1).svg";
+import img15 from "../../Images/INHEADER/Frame 26 (1).svg";
+import style from './ResSlider.module.css'
 
 export default class SimpleSlider extends Component {
   render() {
@@ -76,17 +71,11 @@ export default class SimpleSlider extends Component {
     };
 
     let arrayOfImages = [
-      img1,
-      img2,
-      img3,
-      img4,
-      img5,
-      img6,
-      img7,
-      img8,
-      img9,
-      img10,
-      img1,
+      img11,
+      img12,
+      img13,
+      img14,
+      img15,
     ]
     return (
       <div className={`${style.parent} py-10`}>

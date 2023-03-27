@@ -1,3 +1,25 @@
 .parent {
     width: 100%;
+    background:  #F5F5F5;
 }
+
+.resHeader{
+    display: none;
+}
+
+
+@media (max-width:525px) {
+    .parent > div:nth-child(2){
+        display: none;
+    }
+    .resHeader{
+        display: block;
+    }
+    
+}
+
+.resHeader > p{
+    line-height: 28px;
+    padding: 1rem 0px 0px 2.5rem;
+}
+

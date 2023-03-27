@@ -1,10 +1,8 @@
 import Navbar from "../Navbar/Navbar";
 import style from "./Header.module.css";
-import SEARCH from "../../Images/SEARCH.svg";
-import CHECKINOUT from "../../Images/CHECKINOUT.svg";
-import MALE from "../../Images/MALE.svg";
 import Inputs from "../Inputs/Inputs";
 import SimpleSlider from "./ImageSlider";
+import Slider1 from '../Sliders/Slider1'
 
 function Header() {
   return (
@@ -18,7 +16,7 @@ function Header() {
         <p className="font-bold text-[32px] text-white">Top categories</p>
       </div>
       <SimpleSlider />
-      <p style={{width:'82%' , margin:'auto'}} className="font-bold text-[32px] text-white">
+      <p style={{width:'82%' , margin:'auto'}} className="pb-4 font-bold text-[32px] text-white">
         Top Vacation Destinations
       </p>
     </div>
