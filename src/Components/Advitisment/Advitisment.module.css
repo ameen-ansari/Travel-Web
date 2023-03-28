@@ -1,0 +1,182 @@
+.parent {
+  display: flex;
+  width: 100%;
+  background-image: url("../../Images/image 21 (1).svg");
+  background-repeat: no-repeat;
+  font-family: "Helvetica" !important;
+  background-size: cover;
+  padding-top: 5rem;
+  margin-top: 6rem;
+}
+
+.iphoneParent {
+  margin-left: 9%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.content {
+  flex: 2;
+  margin-right: 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0px 1rem 1rem 1rem;
+}
+@media (max-width: 1315px) {
+  
+  .sociallogos {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+}
+@media (max-width: 605px) {
+  .sociallogos {
+  width: 80%;
+}
+}
+@media (max-width: 1200px) {
+  .content {
+    margin-right: 2rem;
+    padding: 0px 0rem 1rem 0rem;
+  }
+}
+@media (max-width: 900px) {
+  .parent {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+  .content {
+    padding: 0px 2rem;
+    width: 95%;
+    margin-left: 5%;
+  }
+  .inContentParent {
+    align-items: center;
+    justify-content: center;
+  }
+}
+.btn1 {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+  width: 91px;
+  height: 39px;
+  padding: 8px 16px;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn2 {
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: 400;
+  width: 91px;
+  height: 39px;
+  padding: 8px 16px;
+  color: white;
+}
+
+.btnsParent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.formType {
+  border-radius: 16px;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 475px) {
+  .formType {
+    background: rgba(255, 255, 255, 0.4) !important;
+    backdrop-filter: blur(16px) !important;
+    gap: 1rem;
+    width: 100%;
+    background: none;
+    backdrop-filter: blur(0px);
+  }
+  .formType > input {
+    background-color: transparent;
+    outline: 0;
+    outline: 0;
+    color: white;
+  }
+}
+@media (max-width: 475px) {
+  .formType {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    background: none;
+    backdrop-filter: blur(0px);
+  }
+  .formType > input {
+    background: rgba(255, 255, 255, 0.4) !important;
+    backdrop-filter: blur(16px) !important;
+    width: 100%;
+    border-radius: 16px;
+    padding: 8px 16px;
+    outline: 0;
+    color: white;
+  }
+}
+
+.formType > input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    opacity: 0.7;
+    color: #ffffff;
+  }
+.btn3 {
+  padding: 12px 32px;
+  width: 188px;
+  height: 42px;
+  background: #ffffff;
+  border-radius: 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #2659c3;
+  opacity: 0.7;
+}
+
+.inContentParent {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.inContentParent > div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+}
+.inContentParent > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+}
+.inContentParent > div:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+}

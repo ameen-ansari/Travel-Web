@@ -10,6 +10,8 @@ import Slider2img1 from "../../Images/IMAGESLIDER2/Frame 31.svg";
 import Slider2img2 from "../../Images/IMAGESLIDER2/Frame 36.svg";
 import Slider2img3 from "../../Images/IMAGESLIDER2/Frame 37.svg";
 import ComunitySlider from '../../Components/Offers/Slider2/ComunitySlider'
+import Advitisment from "../../Components/Advitisment/Advitisment";
+import Footer from "../../Components/Footer/Footer";
 
 function HomePage() {
   let imagesArray1 = [img1, img2, img3, img1, img2];
@@ -46,6 +48,8 @@ function HomePage() {
         <p className="text-[32px] font-bold ">Connect with other travelers in our community</p>
         <ComunitySlider />
       </div>
+      <Advitisment />
+      <Footer />
     </div>
   );
 }

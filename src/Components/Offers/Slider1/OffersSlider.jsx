@@ -1,7 +1,7 @@
 import style from "./OffersSlider.module.css";
-import Slider from "react-slick";
 import img1 from "../../../Images/OFFERS/image 19.svg";
 import img2 from "../../../Images/OFFERS/image 19 (1).svg";
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
