@@ -1,0 +1,11 @@
+.parent{
+    width: 100%;
+}
+
+.parent > div:nth-child(1){
+    background-image: url('../../Images/mountainsPage/image 1 (2).svg');
+}
+.parent > div:nth-child(2){
+position: relative !important;
+bottom: 6rem;
+}

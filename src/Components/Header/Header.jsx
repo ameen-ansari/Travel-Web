@@ -3,7 +3,7 @@ import style from "./Header.module.css";
 import Inputs from "../Inputs/Inputs";
 import SimpleSlider from "./ImageSlider";
 
-function Header() {
+function Header(props) {
   return (
     <div className={style.parent}>
       <Navbar />
@@ -16,7 +16,7 @@ function Header() {
       </div>
       <SimpleSlider />
       <p style={{width:'82%' , margin:'auto'}} className="pb-4 font-bold text-[32px] text-white">
-        Top Vacation Destinations
+        {props.para}
       </p>
     </div>
   );

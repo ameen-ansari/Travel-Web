@@ -1,10 +1,12 @@
 import style from './App.module.css';
-import HomePage from './Pages/HomePage/HomePage';
+import MountainsPage from './Pages/MountainPage/MountainsPage';
+// import HomePage from './Pages/HomePage/HomePage';
 
 function App() {
   return (
     <div className={style.parent}>
-      <HomePage />
+      {/* <HomePage /> */}
+      <MountainsPage />
     </div>
   );
 }

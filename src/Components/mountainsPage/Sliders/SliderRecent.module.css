@@ -1,0 +1,61 @@
+.parent {
+    width: 91%;
+    margin-left: 9%;
+  }
+  .card {
+    width: 95% !important;
+    background: #ffffff;
+    box-shadow: 0px 4px 16px rgba(158, 158, 158, 0.25);
+    margin: 1rem ;
+    padding: 1rem 0px;
+    border-radius: 16px;
+  }
+  .card ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Netflix Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  }
+  
+  .card ul li:before {
+    content: "●";
+    color: #000000;
+    opacity: 0.5;
+    margin-right: 0.5em;
+  }
+  .card div:nth-child(1) img {
+    border-radius: 12px !important;
+    margin: auto;
+    width: 90%;
+  }
+  
+  .content > div:nth-child(1) {
+    padding: 0px 1rem;
+    margin-top: 1rem;
+  }
+  .content > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 1rem;
+    gap: 1.5rem;
+  }
+  
+  .bgType {
+    background-image: url('../../../Images/mountainsPage/image 26.svg');
+    background-size: cover;
+    width: 95% !important;
+    box-shadow: 0px 4px 16px rgba(158, 158, 158, 0.25);
+    margin: 1rem ;
+    padding: 1rem 1rem;
+    border-radius: 16px;
+    min-height:36rem;
+  }
+
+  @media (max-width:610px) {
+    .bgType {
+        min-height: 41rem !important;
+    }
+  }
