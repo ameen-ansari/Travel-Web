@@ -1,6 +1,7 @@
 .parent {
     width: 91%;
     margin-left: 9%;
+    font-family: 'Netflix Sans' !important;
   }
   .card {
     width: 95% !important;

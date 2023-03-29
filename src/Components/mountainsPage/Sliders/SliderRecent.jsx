@@ -60,7 +60,7 @@ function MountainsSlider2(props) {
                 </div>
                 <div>
                   <p className="font-normal text-[16px] opacity-50">
-                    3Days$Nights
+                    3Days 4Nights
                   </p>
                   <div className="flex justify-between align-middle flex-wrap">
                     <img className="p-2" src={cardImg2} alt="Earoplane" />
@@ -112,7 +112,7 @@ function MountainsSlider2(props) {
                 </div>
                 <div>
                   <p className="font-normal text-[16px] opacity-50">
-                    3Days$Nights
+                    3Days 4Nights
                   </p>
                   <div className="flex justify-between align-middle flex-wrap">
                     <img className="p-2" src={cardImg2} alt="Earoplane" />
@@ -151,10 +151,10 @@ function MountainsSlider2(props) {
               </div>
             </div>
             <div className={`${style.bgType}`}>
-                <p className="text-[32px] font-bold text-white">Summer Bonanza!</p>
-                <p className="text-[16px] font-normal text-white" >Enjoy confortable transfers in shared coaches</p>
-                <p className="text-[16px] font-normal text-white">Choose from 5 flights per week</p>
-                <p className="text-[16px] font-normal text-white">Get a free Rapid Antigen Test at selected hotels</p>
+                <p className="text-[32px] mt-8 px-4 font-bold text-white">Summer Bonanza!</p>
+                <p className="text-[16px] mt-5 px-4 font-normal text-white" >Enjoy confortable transfers in shared coaches</p>
+                <p className="text-[16px] mt-4 px-4 font-normal text-white">Choose from 5 flights per week</p>
+                <p className="text-[16px] mt-4 px-4 font-normal text-white">Get a free Rapid Antigen Test at selected hotels</p>
             </div>
       </Slider>
     </div>

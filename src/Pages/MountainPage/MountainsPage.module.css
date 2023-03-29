@@ -9,3 +9,18 @@
 position: relative !important;
 bottom: 6rem;
 }
+
+.slider2 > p {
+margin-left: 9%;
+margin-bottom: 1rem;
+}
+.slider3 > p {
+margin-left: 9%;
+margin-bottom: 1rem;
+margin-top: 5rem;
+}
+.slider4 > p {
+margin-left: 9%;
+margin-bottom: 5rem;
+margin-top: 5rem;
+}

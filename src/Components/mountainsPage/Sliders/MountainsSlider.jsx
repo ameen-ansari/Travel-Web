@@ -62,7 +62,7 @@ function MountainsSlider(props) {
                 </div>
                 <div>
                   <p className="font-normal text-[16px] opacity-50">
-                    3Days$Nights
+                    3Days 4Nights
                   </p>
                   <div className="flex justify-between align-middle flex-wrap">
                     <img className="p-2" src={cardImg2} alt="Earoplane" />

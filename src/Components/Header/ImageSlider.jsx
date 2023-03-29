@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -13,9 +12,13 @@ import img8 from "../../Images/INHEADER/Frame8.svg";
 import img9 from "../../Images/INHEADER/Frame9.svg";
 import img10 from "../../Images/INHEADER/Frame10.svg";
 import style from './ImageSlider.module.css'
+import { useNavigate } from "react-router-dom";
 
-export default class SimpleSlider extends Component {
-  render() {
+ const SimpleSlider = ()=> {
+  let navigate = useNavigate()
+  let pushAbout = () => {
+    navigate('/about')
+  }
     const settings = {
       arrows: false,
       dots: false,
@@ -93,7 +96,7 @@ export default class SimpleSlider extends Component {
         <Slider {...settings}>
           {arrayOfImages.map((image) => {
             return (
-              <div className={`${style.card} cursor-pointer`}>
+              <div onClick={pushAbout} className={`${style.card} cursor-pointer`}>
                 <img src={image}  alt="" />
               </div>
             );
@@ -102,4 +105,4 @@ export default class SimpleSlider extends Component {
       </div>
     );
   }
-}
+export default SimpleSlider
