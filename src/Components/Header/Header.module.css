@@ -3,8 +3,16 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 7rem;
+  position: relative;
 }
 
+.shadow {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width:100%;
+
+}
 
 .Header {
   width: 82%;

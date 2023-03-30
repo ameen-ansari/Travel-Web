@@ -2,8 +2,7 @@
     position: relative;
     bottom: 6rem;
     width: 91%;
-    /* left: -7%; */
-    margin-left: 9%;
+    margin-left:9%;
 }
 
 @media (max-width:500px) {
@@ -11,31 +10,3 @@
         width:100vw !important;
     }
 }
-
-
-
-/* @media (max-width:1300px) {
-    .parent {
-        padding-left: 6rem;
-    }
-}
-@media (max-width:1000px) {
-    .parent {
-        padding-left: 5rem;
-    }
-}
-@media (max-width:900px) {
-    .parent {
-        padding-left: 4rem;
-    }
-}
-@media (max-width:700px) {
-    .parent {
-        padding-left: 3rem;
-    }
-} */
-/* @media (max-width:550px) {
-    .card > img{
-        margin-left:25% !important;
-    }
-} */

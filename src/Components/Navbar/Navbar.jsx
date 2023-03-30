@@ -1,11 +1,16 @@
 import style from "./Navbar.module.css";
 import HAM_BURGER from '../../Images/HAM_BURGER.svg'
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+  let navigate = useNavigate()
+  let pushSlash = () => {
+    navigate('/')
+  } 
   return (
     <div className={style.parent}>
       <div>
-        <p className="text-white text-[32px] font-bold">trxvl.</p>
+        <p onClick={pushSlash} className="text-white text-[32px] font-bold">trxvl.</p>
       </div>
       <div>
         <p className="text-white text-[16px] font-normal cursor-pointer opacity-70">Home</p>
